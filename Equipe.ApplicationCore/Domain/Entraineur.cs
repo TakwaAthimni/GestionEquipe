@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Equipe.ApplicationCore.Domain
+namespace Eq.ApplicationCore.Domain
 {
     public class Entraineur:Membre
     {
-        int Grade { get; set; }
+       public  int Grade { get; set; }
     }
 }

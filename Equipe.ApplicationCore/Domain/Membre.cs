@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Equipe.ApplicationCore.Domain
+namespace Eq.ApplicationCore.Domain
 {
     public class Membre
     {
-        DateTime Datenaissance { get; set; }
-        int identifiant { get; set; }
-        String nom { get; set; }
-        String prenom { get; set; }
+        public int MembreId { get; set; }
+        public DateTime Datenaissance { get; set; }
+        public int identifiant { get; set; }
+        public String nom { get; set; }
+        public String prenom { get; set; }
         public ICollection<Contrat> Contrats { get; set; }
     }
 }

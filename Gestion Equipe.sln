@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equipe.ApplicationCore", "Equipe.ApplicationCore\Equipe.ApplicationCore.csproj", "{A04F48CF-28F9-44FB-AF64-1D58A91B09E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eq.ApplicationCore", "Equipe.ApplicationCore\Eq.ApplicationCore.csproj", "{A04F48CF-28F9-44FB-AF64-1D58A91B09E8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equipe.UI.Console", "Equipe.UI.Console\Equipe.UI.Console.csproj", "{0AE9FF18-0D5E-4DB0-8B56-9A479C000EBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eq.UI.Console", "Equipe.UI.Console\Eq.UI.Console.csproj", "{0AE9FF18-0D5E-4DB0-8B56-9A479C000EBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastruct", "Infrastruct\Infrastruct.csproj", "{1472DAAD-ABAF-471E-9656-4650E02AFE34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastruct", "Infrastruct\Infrastruct.csproj", "{1472DAAD-ABAF-471E-9656-4650E02AFE34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,17 @@
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\bin\Debug\net6.0\Infrastruct.deps.json
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\bin\Debug\net6.0\Infrastruct.dll
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\bin\Debug\net6.0\Infrastruct.pdb
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\obj\Debug\net6.0\Infrastruct.csproj.AssemblyReference.cache
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\obj\Debug\net6.0\Infrastruct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\obj\Debug\net6.0\Infrastruct.AssemblyInfoInputs.cache
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\obj\Debug\net6.0\Infrastruct.AssemblyInfo.cs
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\obj\Debug\net6.0\Infrastruct.csproj.CoreCompileInputs.cache
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\obj\Debug\net6.0\Infrastruct.dll
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\obj\Debug\net6.0\refint\Infrastruct.dll
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\obj\Debug\net6.0\Infrastruct.pdb
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\obj\Debug\net6.0\ref\Infrastruct.dll
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\bin\Debug\net6.0\Infrastruct.runtimeconfig.json
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\bin\Debug\net6.0\Eq.ApplicationCore.dll
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\bin\Debug\net6.0\Eq.ApplicationCore.pdb
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\obj\Debug\net6.0\Infrastruct.csproj.CopyComplete
+C:\Users\takwa\Downloads\Gestion Equipe\Infrastruct\obj\Debug\net6.0\Infrastruct.genruntimeconfig.cache

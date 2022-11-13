@@ -1,0 +1,12 @@
+C:\Users\takwa\Downloads\Gestion Equipe\Equipe.ApplicationCore\bin\Debug\net6.0\Eq.ApplicationCore.deps.json
+C:\Users\takwa\Downloads\Gestion Equipe\Equipe.ApplicationCore\bin\Debug\net6.0\Eq.ApplicationCore.dll
+C:\Users\takwa\Downloads\Gestion Equipe\Equipe.ApplicationCore\bin\Debug\net6.0\Eq.ApplicationCore.pdb
+C:\Users\takwa\Downloads\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\Eq.ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\takwa\Downloads\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\Eq.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\takwa\Downloads\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\Eq.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\takwa\Downloads\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\Eq.ApplicationCore.AssemblyInfo.cs
+C:\Users\takwa\Downloads\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\Eq.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\takwa\Downloads\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\Eq.ApplicationCore.dll
+C:\Users\takwa\Downloads\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\refint\Eq.ApplicationCore.dll
+C:\Users\takwa\Downloads\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\Eq.ApplicationCore.pdb
+C:\Users\takwa\Downloads\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\ref\Eq.ApplicationCore.dll

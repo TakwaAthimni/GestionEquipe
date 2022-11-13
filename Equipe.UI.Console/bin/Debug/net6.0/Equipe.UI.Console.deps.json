@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Equipe.UI.Console/1.0.0": {
+        "dependencies": {
+          "Equipe.ApplicationCore": "1.0.0",
+          "Infrastruct": "1.0.0"
+        },
+        "runtime": {
+          "Equipe.UI.Console.dll": {}
+        }
+      },
+      "Equipe.ApplicationCore/1.0.0": {
+        "runtime": {
+          "Equipe.ApplicationCore.dll": {}
+        }
+      },
+      "Infrastruct/1.0.0": {
+        "runtime": {
+          "Infrastruct.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Equipe.UI.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Equipe.ApplicationCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastruct/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
