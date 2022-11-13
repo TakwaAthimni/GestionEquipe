@@ -1,0 +1,12 @@
+C:\Users\21694\source\repos\Gestion Equipe\Equipe.ApplicationCore\bin\Debug\net6.0\Equipe.ApplicationCore.deps.json
+C:\Users\21694\source\repos\Gestion Equipe\Equipe.ApplicationCore\bin\Debug\net6.0\Equipe.ApplicationCore.dll
+C:\Users\21694\source\repos\Gestion Equipe\Equipe.ApplicationCore\bin\Debug\net6.0\Equipe.ApplicationCore.pdb
+C:\Users\21694\source\repos\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\Equipe.ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\21694\source\repos\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\Equipe.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\21694\source\repos\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\Equipe.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\21694\source\repos\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\Equipe.ApplicationCore.AssemblyInfo.cs
+C:\Users\21694\source\repos\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\Equipe.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\21694\source\repos\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\Equipe.ApplicationCore.dll
+C:\Users\21694\source\repos\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\refint\Equipe.ApplicationCore.dll
+C:\Users\21694\source\repos\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\Equipe.ApplicationCore.pdb
+C:\Users\21694\source\repos\Gestion Equipe\Equipe.ApplicationCore\obj\Debug\net6.0\ref\Equipe.ApplicationCore.dll
