@@ -4,6 +4,7 @@ using Infrastruct;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastruct.Migrations
 {
     [DbContext(typeof(GEContext))]
-    partial class GEContextModelSnapshot : ModelSnapshot
+    [Migration("20221113202639_TPH")]
+    partial class TPH
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,11 +27,11 @@ namespace Infrastruct.Migrations
 
             modelBuilder.Entity("Eq.ApplicationCore.Domain.Contrat", b =>
                 {
-                    b.Property<int>("equipeFK")
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("membreFK")
-                        .HasColumnType("int");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("DateContrat")
                         .HasColumnType("Date");
@@ -36,12 +39,20 @@ namespace Infrastruct.Migrations
                     b.Property<int>("DureeMois")
                         .HasColumnType("int");
 
+                    b.Property<int>("EquipeId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MembreId")
+                        .HasColumnType("int");
+
                     b.Property<double>("salaire")
                         .HasColumnType("float");
 
-                    b.HasKey("equipeFK", "membreFK");
+                    b.HasKey("Id");
 
-                    b.HasIndex("membreFK");
+                    b.HasIndex("EquipeId");
+
+                    b.HasIndex("MembreId");
 
                     b.ToTable("Contrats");
                 });
@@ -56,6 +67,9 @@ namespace Infrastruct.Migrations
 
                     b.Property<DateTime>("Datenaissance")
                         .HasColumnType("Date");
+
+                    b.Property<int>("IsJoueur")
+                        .HasColumnType("int");
 
                     b.Property<int>("identifiant")
                         .HasColumnType("int");
@@ -72,7 +86,9 @@ namespace Infrastruct.Migrations
 
                     b.ToTable("Membres");
 
-                    b.UseTptMappingStrategy();
+                    b.HasDiscriminator<int>("IsJoueur").HasValue(0);
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("Eq.ApplicationCore.Domain.Trophe", b =>
@@ -137,31 +153,27 @@ namespace Infrastruct.Migrations
                     b.Property<int>("Grade")
                         .HasColumnType("int");
 
-                    b.ToTable("Entraineur", (string)null);
+                    b.HasDiscriminator().HasValue(2);
                 });
 
             modelBuilder.Entity("Eq.ApplicationCore.Domain.Joueur", b =>
                 {
                     b.HasBaseType("Eq.ApplicationCore.Domain.Membre");
 
-                    b.Property<string>("Poste")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.ToTable("Joueur", (string)null);
+                    b.HasDiscriminator().HasValue(1);
                 });
 
             modelBuilder.Entity("Eq.ApplicationCore.Domain.Contrat", b =>
                 {
                     b.HasOne("Equ.ApplicationCore.Domain.Equipe", "Equipe")
                         .WithMany("Contrats")
-                        .HasForeignKey("equipeFK")
+                        .HasForeignKey("EquipeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Eq.ApplicationCore.Domain.Membre", "Membre")
                         .WithMany("Contrats")
-                        .HasForeignKey("membreFK")
+                        .HasForeignKey("MembreId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -178,24 +190,6 @@ namespace Infrastruct.Migrations
                         .IsRequired();
 
                     b.Navigation("equipe");
-                });
-
-            modelBuilder.Entity("Eq.ApplicationCore.Domain.Entraineur", b =>
-                {
-                    b.HasOne("Eq.ApplicationCore.Domain.Membre", null)
-                        .WithOne()
-                        .HasForeignKey("Eq.ApplicationCore.Domain.Entraineur", "MembreId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("Eq.ApplicationCore.Domain.Joueur", b =>
-                {
-                    b.HasOne("Eq.ApplicationCore.Domain.Membre", null)
-                        .WithOne()
-                        .HasForeignKey("Eq.ApplicationCore.Domain.Joueur", "MembreId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("Eq.ApplicationCore.Domain.Membre", b =>

@@ -1,6 +1,7 @@
 ﻿using Eq.ApplicationCore.Domain;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,9 +12,12 @@ namespace Equ.ApplicationCore.Domain
     public class Equipe
     {
         public String AdressLocal { get; set; }
+        [Key]
         public int EquipeId { get; set; }
+        [StringLength(8)]
         public String EquipeName { get; set; }
         public String Logo { get; set; }
+      
         public ICollection<Contrat> Contrats { get; set; }
         public ICollection<Trophe> Trophes { get; set; }
     }

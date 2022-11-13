@@ -8,6 +8,6 @@ namespace Eq.ApplicationCore.Domain
 {
     public class Joueur:Membre
     {
-        String Poste { get; set; }
+        public String Poste { get; set; }
     }
 }

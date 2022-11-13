@@ -9,17 +9,22 @@ using System.Threading.Tasks;
 namespace Eq.ApplicationCore.Domain
 {
     public class Contrat
-    {    
-        public int Id { get; set; }
+    {
         public DateTime DateContrat { get; set; }
         public int DureeMois { get; set; }
         public double salaire { get; set; }
-        
 
+        [ForeignKey("Membre")]
+        public int membreFK { get; set; }
         public Membre Membre { get; set; }
-        
+
+        [ForeignKey("Equipe")]
+        public int equipeFK { get; set; }
         public Equipe Equipe { get; set; }
 
 
     }
+
+
+
 }
