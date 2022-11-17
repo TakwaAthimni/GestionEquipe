@@ -11,8 +11,8 @@ namespace Eq.ApplicationCore.Domain
         public int MembreId { get; set; }
         public DateTime Datenaissance { get; set; }
         public int identifiant { get; set; }
-        public String nom { get; set; }
-        public String prenom { get; set; }
-        public ICollection<Contrat> Contrats { get; set; }
+        public string nom { get; set; }
+        public string prenom { get; set; }
+        public virtual ICollection<Contrat> Contrats { get; set; }
     }
 }

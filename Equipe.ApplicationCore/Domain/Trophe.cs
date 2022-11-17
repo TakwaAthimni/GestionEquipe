@@ -16,7 +16,7 @@ namespace Eq.ApplicationCore.Domain
         public int TropheId { get; set; }
         public string TypeTrophee { get; set; }
 
-        public Equipe equipe { get; set; }
+        public virtual Equipe equipe { get; set; }
         [ForeignKey("Equipe ")]
         public int EquipeFK { get; set; }
     }

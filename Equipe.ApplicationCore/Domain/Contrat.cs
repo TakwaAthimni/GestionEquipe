@@ -16,11 +16,11 @@ namespace Eq.ApplicationCore.Domain
 
         [ForeignKey("Membre")]
         public int membreFK { get; set; }
-        public Membre Membre { get; set; }
+        public virtual Membre Membre { get; set; }
 
         [ForeignKey("Equipe")]
         public int equipeFK { get; set; }
-        public Equipe Equipe { get; set; }
+        public virtual  Equipe Equipe { get; set; }
 
 
     }

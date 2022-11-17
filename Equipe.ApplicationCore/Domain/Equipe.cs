@@ -18,7 +18,7 @@ namespace Equ.ApplicationCore.Domain
         public String EquipeName { get; set; }
         public String Logo { get; set; }
       
-        public ICollection<Contrat> Contrats { get; set; }
-        public ICollection<Trophe> Trophes { get; set; }
+        public virtual ICollection<Contrat> Contrats { get; set; }
+        public virtual ICollection<Trophe> Trophes { get; set; }
     }
 }

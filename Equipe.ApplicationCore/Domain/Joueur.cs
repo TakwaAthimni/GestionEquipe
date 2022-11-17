@@ -9,5 +9,6 @@ namespace Eq.ApplicationCore.Domain
     public class Joueur:Membre
     {
         public String Poste { get; set; }
+
     }
 }

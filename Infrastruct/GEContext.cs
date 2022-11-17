@@ -20,8 +20,10 @@ namespace Infrastruct
         public DbSet<Membre> Membres { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+
+            optionsBuilder.UseLazyLoadingProxies();
             optionsBuilder.UseSqlServer(@"Data Source=(localdb)\mssqllocaldb;
-            Initial Catalog=GestionEquipeDB;Integrated Security=true");
+            Initial Catalog=GestionEquipeDB;Integrated Security=true;MultipleActiveResultSets=true");
             base.OnConfiguring(optionsBuilder);
         }
 
